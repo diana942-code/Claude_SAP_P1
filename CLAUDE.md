@@ -14,12 +14,13 @@ Progetto attuale: **Programma calcolo IFRS 16**, un **documento unico** che copr
 | `NOTE/` | Appunti dell'utente | Fonte principale dei requisiti. |
 | `EXAMPLE/` | `BACHINPUT BASE.xlsx`, CSV di output di esempio | Specifiche del Pillar 1: tracciato e mapping, parametri di selezione, tabelle custom (`ZGUID`, `ZCONTI_IFRS16`), controlli. |
 | `TABLES/` | Estratti di tabelle SAP (es. `VIRADOCITEM`) | Per nomi dei campi e dati di esempio. |
+| `MAIL/` | Thread di mail con il cliente (`.msg`, leggibili con `olefile`) | Decisioni concordate: logica delta, centri di costo, schema contabile, regole del batch input, voci del consolidato. Prevalgono su appunti ed Excel se più recenti. |
 | `OUTPUT/` | Documenti prodotti | Qui si salvano i documenti finiti. |
 
 Nota: gli appunti numerano i fogli Excel in modo diverso dall'ordine reale. Fai riferimento al **nome del foglio**, non al numero.
 
 ## Come redigere il documento
-1. Leggi tutti i file di `NOTE/`, `EXAMPLE/` e `TABLES/` prima di scrivere.
+1. Leggi tutti i file di `NOTE/`, `EXAMPLE/`, `TABLES/` e `MAIL/` prima di scrivere.
 2. Parti da una copia del template: mantieni gli stili Word (`Heading 1/2`, `Body copy`), le tabelle e l'indice, e sostituisci il contenuto del CHN-402. Per i file `.docx` usa python-docx.
 3. **Frontespizio e dati del documento:**
    - Object ID e titolo: segnaposto `CHN-XXX – Programma calcolo IFRS 16`
