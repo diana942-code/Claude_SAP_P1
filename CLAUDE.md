@@ -35,7 +35,7 @@ Nota: gli appunti numerano i fogli Excel in modo diverso dall'ordine reale. Fai 
    - Numera gli step di elaborazione.
    - Descrivi parametri di selezione e output (ALV o file).
 6. Riporta il **mapping del tracciato del Pillar 1** (foglio "Struttura file e mapping", riga 2) come **griglia** con queste colonne: campo di output, fonte o regola, note.
-7. Per le **informazioni mancanti** (es. step del Pillar 2 successivi al 2, "file Excel Y", programma ECC, report standard "RF S XXX"):
+7. Per le **informazioni mancanti** (es. formule di ricalcolo del Pillar 2, "file Excel Y", programma ECC):
    - scrivi comunque il documento;
    - segna il punto come **TBD** nel testo;
    - aggiungilo alla tabella **Open Items**.
